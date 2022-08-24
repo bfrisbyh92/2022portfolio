@@ -1,64 +1,138 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import colorSharp from "../assets/img/color-sharp.png";
+import apiImage from "../assets/img/skills/api.png";
+import djangoImage from "../assets/img/skills/django.png";
+import cssImage from "../assets/img/skills/css.png";
+import figmaImage from "../assets/img/skills/figma.png";
+import nodeImage from "../assets/img/skills/node.png";
+import reduxImage from "../assets/img/skills/redux.png";
+import jsImage from "../assets/img/skills/js.png";
+import reactImage from "../assets/img/skills/react.png";
+import bootstrapImage from "../assets/img/skills/bootstrap.png";
+import sqlImage from "../assets/img/skills/sql.png";
+import mongodbImage from "../assets/img/skills/mongodb.jpg";
+import sassImage from "../assets/img/skills/sass.png";
+import materialImage from "../assets/img/skills/material-ui.png";
+import gitImage from "../assets/img/skills/git.png";
+import pythonImage from "../assets/img/skills/python.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
+      items: 1,
+    },
   };
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
-                    </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="skill-bx wow zoomIn">
+              <h2>Skills</h2>
+              <p>
+                I am constantly building and learning more. Here is a list of //
+                some of the technologies I'm familiar with.
+              </p>
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="owl-carousel owl-theme skill-slider"
+              >
+                <div className="item">
+                  <img src={reactImage} alt="Image" />
+                  <h5>React.js</h5>
                 </div>
+                <div className="item">
+                  <img src={pythonImage} alt="Image" />
+                  <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <img src={apiImage} alt="Image" />
+                  <h5>API's</h5>
+                </div>
+                <div className="item">
+                  <img src={jsImage} alt="Image" />
+                  <h5>Vanilla Javascript</h5>
+                </div>
+                <div className="item">
+                  <img src={figmaImage} alt="Image" />
+                  <h5>Figma</h5>
+                </div>
+              </Carousel>
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="owl-carousel owl-theme skill-slider"
+              >
+                <div className="item">
+                  <img src={nodeImage} alt="Image" />
+                  <h5>Node.js</h5>
+                </div>
+                <div className="item">
+                  <img src={djangoImage} alt="Image" />
+                  <h5>Django</h5>
+                </div>
+                <div className="item">
+                  <img src={cssImage} alt="Image" />
+                  <h5>CSS3</h5>
+                </div>
+                <div className="item">
+                  <img src={bootstrapImage} alt="Image" />
+                  <h5>Bootstrap CSS</h5>
+                </div>
+                <div className="item">
+                  <img src={materialImage} alt="Image" />
+                  <h5>Material-UI</h5>
+                </div>
+              </Carousel>
+
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="owl-carousel owl-theme skill-slider"
+              >
+                <div className="item">
+                  <img src={sassImage} alt="Image" />
+                  <h5>SASS</h5>
+                </div>
+                <div className="item">
+                  <img src={reduxImage} alt="Image" />
+                  <h5>Redux</h5>
+                </div>
+                <div className="item">
+                  <img src={gitImage} alt="Image" />
+                  <h5>Git Version Control</h5>
+                </div>
+                <div className="item">
+                  <img src={mongodbImage} alt="Image" />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={sqlImage} alt="Image" />
+                  <h5>SQL</h5>
+                </div>
+              </Carousel>
             </div>
+          </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
-  )
-}
+  );
+};

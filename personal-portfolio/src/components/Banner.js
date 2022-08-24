@@ -75,7 +75,7 @@ export const Banner = () => {
                     is exactly what I do! Please Check out my projects and{" "}
                     <a href="https://github.com/bfrisbyh92">Github.</a>
                     <a
-                      href="/assets/img/BHF Resume.docx"
+                      href="https://github.com/bfrisbyh92/2022portfolio/blob/afc6ef2c5812dfa9c8279e5b42454c84f7c86551/personal-portfolio/src/assets/img/BHF%20Resume.docx"
                       download="Brendan Frisby Resume"
                       target="_blank"
                     >
