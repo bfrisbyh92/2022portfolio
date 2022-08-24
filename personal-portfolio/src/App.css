@@ -105,6 +105,12 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+.profilePicture {
+  height: 17vh;
+  width: 17vw;
+  border-radius: 50%;
+  border: 8px dashed #8b9afc;
+}
 nav.navbar a.navbar-brand {
   width: 9%;
 }

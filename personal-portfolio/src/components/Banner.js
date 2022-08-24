@@ -11,11 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [
-    "Software Engineer",
-    "Web Developer",
-    "UI/UX Designer",
-  ];
+  const toRotate = ["Software Engineer", "Web Developer", "UI/UX Designer"];
   const period = 2000;
 
   useEffect(() => {
@@ -58,7 +54,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -68,9 +64,7 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>
-                    {`Hi! I'm Brendan`}{" "}
-                  </h1>
+                  <h1>{`Hi! I'm Brendan`} </h1>
 
                   <p>
                     I am a passionate Full-Stack Software Engineer. I have two
@@ -78,15 +72,28 @@ export const Banner = () => {
                     second is make a difference where I can along the way.
                     Growth is important to me and I know that if I continue to
                     practice daily, I will continue growing my skills. So that
-                    is exactly what I do! Please Check out my projects and <a href="https://github.com/bfrisbyh92">Github.</a>
-                  </p>
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "Software Engineer" , "Web Developer", "UI/UX Designer" ]'
+                    is exactly what I do! Please Check out my projects and{" "}
+                    <a href="https://github.com/bfrisbyh92">Github.</a>
+                    <a
+                      href="/assets/img/BHF Resume.docx"
+                      download="Brendan Frisby Resume"
+                      target="_blank"
                     >
-                      <span className="wrap">{text}</span>
-                    </span>
+                      <button
+                        type="button"
+                        class="btn btn-success btn-lg btn-block"
+                      >
+                        Download Resume
+                      </button>
+                    </a>
+                  </p>
+                  <span
+                    className="txt-rotate"
+                    dataPeriod="1000"
+                    data-rotate='[ "Software Engineer" , "Web Developer", "UI/UX Designer" ]'
+                  >
+                    <span className="wrap">{text}</span>
+                  </span>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
