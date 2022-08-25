@@ -78,6 +78,7 @@ export const Banner = () => {
                       href="https://github.com/bfrisbyh92/2022portfolio/blob/afc6ef2c5812dfa9c8279e5b42454c84f7c86551/personal-portfolio/src/assets/img/BHF%20Resume.docx"
                       download="Brendan Frisby Resume"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
