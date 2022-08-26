@@ -122,8 +122,25 @@ export const Projects = () => {
                           })}
                           React */}
 
-                          {/* // Goodtimes */}
-                          <Col size={12} sm={6} md={6}>
+                           {/* // Goodtimes */}
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://goodtimes7.netlify.app"
+                              target="_blank"
+                            >
+                              GoodTimes Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/GoodTimes"
+                              target="_blank"
+                            >
+                              GoodTimes Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[4].imgUrl} />
                               <div className="proj-txtx">
@@ -134,7 +151,24 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Coinhub */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://coinhub7.netlify.app"
+                              target="_blank"
+                            >
+                              Coinhub Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/crypto-prices"
+                              target="_blank"
+                            >
+                              Coinhub Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[3].imgUrl} />
                               <div className="proj-txtx">
@@ -145,7 +179,24 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Kryptlow */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://kryptlow.netlify.app/"
+                              target="_blank"
+                            >
+                              Kryptlow Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/Kryptlow"
+                              target="_blank"
+                            >
+                              Kryptlow Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[0].imgUrl} />
                               <div className="proj-txtx">
@@ -154,8 +205,35 @@ export const Projects = () => {
                               </div>
                             </div>
                           </Col>
+
                           {/* // Old Portfolio */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                           <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://brendanfrisby.netlify.app/"
+                              target="_blank"
+                            >
+                              Old Portfolio Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/frontend_portfolio"
+                              target="_blank"
+                            >
+                              Old Portfolio Client Code
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/backend_portfolio"
+                              target="_blank"
+                            >
+                              Old Portfolio Backend Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[6].imgUrl} />
                               <div className="proj-txtx">
@@ -164,12 +242,30 @@ export const Projects = () => {
                               </div>
                             </div>
                           </Col>
+
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="web">
                         <Row>
-                          {/* // Goodtimes */}
-                          <Col size={12} sm={6} md={6}>
+  {/* // Goodtimes */}
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://goodtimes7.netlify.app"
+                              target="_blank"
+                            >
+                              GoodTimes Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/GoodTimes"
+                              target="_blank"
+                            >
+                              GoodTimes Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[4].imgUrl} />
                               <div className="proj-txtx">
@@ -179,19 +275,25 @@ export const Projects = () => {
                             </div>
                           </Col>
 
-                          {/* // Kryptlow */}
-                          <Col size={12} sm={6} md={6}>
-                            <div className="proj-imgbx">
-                              <img alt="projectImg" src={projects[0].imgUrl} />
-                              <div className="proj-txtx">
-                                <h4>{projects[0].title}</h4>
-                                <span>{projects[0].description}</span>
-                              </div>
-                            </div>
-                          </Col>
-
                           {/* // Coinhub */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://coinhub7.netlify.app"
+                              target="_blank"
+                            >
+                              Coinhub Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/crypto-prices"
+                              target="_blank"
+                            >
+                              Coinhub Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[3].imgUrl} />
                               <div className="proj-txtx">
@@ -201,8 +303,62 @@ export const Projects = () => {
                             </div>
                           </Col>
 
+                          {/* // Kryptlow */}
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://kryptlow.netlify.app/"
+                              target="_blank"
+                            >
+                              Kryptlow Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/Kryptlow"
+                              target="_blank"
+                            >
+                              Kryptlow Code
+                            </a>
+                            <div className="proj-imgbx">
+                              <img alt="projectImg" src={projects[0].imgUrl} />
+                              <div className="proj-txtx">
+                                <h4>{projects[0].title}</h4>
+                                <span>{projects[0].description}</span>
+                              </div>
+                            </div>
+                          </Col>
+
                           {/* // Old Portfolio */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                           <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://brendanfrisby.netlify.app/"
+                              target="_blank"
+                            >
+                              Old Portfolio Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/frontend_portfolio"
+                              target="_blank"
+                            >
+                              Old Portfolio Client Code
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/backend_portfolio"
+                              target="_blank"
+                            >
+                              Old Portfolio Backend Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[6].imgUrl} />
                               <div className="proj-txtx">
@@ -212,22 +368,53 @@ export const Projects = () => {
                             </div>
                           </Col>
 
-                          {/* // Project 2 Blog */}
-                          <Col size={12} sm={6} md={6}>
+                         {/* // Project 2 Blog */}
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/project-2"
+                              target="_blank"
+                            >
+                              Project #2 Code - no longer hosted
+                            </a>
+                            <br></br>
                             <div className="proj-imgbx">
-                              <img alt="projectImg" src={projects[5].imgUrl} />
+                              <img
+                                size="inherit"
+                                alt="projectImg"
+                                src={projects[5].imgUrl}
+                              />
                               <div className="proj-txtx">
                                 <h4>{projects[5].title}</h4>
                                 <span>{projects[5].description}</span>
                               </div>
                             </div>
                           </Col>
+
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="mobile">
                         <Row>
-                          {/* // Uber Clone */}
-                          <Col size={12} sm={6} md={6}>
+                                                   {/* // Uber Clone */}
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://expo.dev/@bfrisbyh92/uber-clone"
+                              target="_blank"
+                            >
+                              Uber Clone Link(expo)
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/uber-clone"
+                              target="_blank"
+                            >
+                              Uber Clone Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[3].imgUrl} />
                               <div className="proj-txtx">
@@ -238,7 +425,33 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Signal Clone */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://signal3-45484.web.app/"
+                              target="_blank"
+                            >
+                              "Signal" Clone Web Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://signal3-45484.web.app/"
+                              target="_blank"
+                            >
+                              Signal Clone Mobile Link(expo)
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/signal-clone"
+                              target="_blank"
+                            >
+                              Signal Clone Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[1].imgUrl} />
                               <div className="proj-txtx">
@@ -247,12 +460,30 @@ export const Projects = () => {
                               </div>
                             </div>
                           </Col>
+                          
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="all">
                         <Row>
                           {/* // Goodtimes */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://goodtimes7.netlify.app"
+                              target="_blank"
+                            >
+                              GoodTimes Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/GoodTimes"
+                              target="_blank"
+                            >
+                              GoodTimes Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[4].imgUrl} />
                               <div className="proj-txtx">
@@ -263,7 +494,24 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Coinhub */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://coinhub7.netlify.app"
+                              target="_blank"
+                            >
+                              Coinhub Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/crypto-prices"
+                              target="_blank"
+                            >
+                              Coinhub Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[3].imgUrl} />
                               <div className="proj-txtx">
@@ -274,7 +522,24 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Kryptlow */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://kryptlow.netlify.app/"
+                              target="_blank"
+                            >
+                              Kryptlow Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/Kryptlow"
+                              target="_blank"
+                            >
+                              Kryptlow Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[0].imgUrl} />
                               <div className="proj-txtx">
@@ -285,7 +550,33 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Old Portfolio */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                           <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://brendanfrisby.netlify.app/"
+                              target="_blank"
+                            >
+                              Old Portfolio Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/frontend_portfolio"
+                              target="_blank"
+                            >
+                              Old Portfolio Client Code
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/backend_portfolio"
+                              target="_blank"
+                            >
+                              Old Portfolio Backend Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[6].imgUrl} />
                               <div className="proj-txtx">
@@ -296,7 +587,24 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Uber Clone */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://expo.dev/@bfrisbyh92/uber-clone"
+                              target="_blank"
+                            >
+                              Uber Clone Link(expo)
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/uber-clone"
+                              target="_blank"
+                            >
+                              Uber Clone Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[3].imgUrl} />
                               <div className="proj-txtx">
@@ -307,7 +615,33 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Signal Clone */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://signal3-45484.web.app/"
+                              target="_blank"
+                            >
+                              "Signal" Clone Web Link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://signal3-45484.web.app/"
+                              target="_blank"
+                            >
+                              Signal Clone Mobile Link(expo)
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/signal-clone"
+                              target="_blank"
+                            >
+                              Signal Clone Code
+                            </a>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[1].imgUrl} />
                               <div className="proj-txtx">
@@ -318,7 +652,16 @@ export const Projects = () => {
                           </Col>
 
                           {/* // Project 2 Blog */}
-                          <Col size={12} sm={6} md={6}>
+                          <Col size={12} sm={6} md={4} lg={3}>
+                          <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/project-2"
+                              target="_blank"
+                            >
+                              Project #2 Code - no longer hosted
+                            </a>
+                            <br></br>
                             <div className="proj-imgbx">
                               <img
                                 size="inherit"
