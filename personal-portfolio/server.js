@@ -9,6 +9,9 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.send((req, res) => {
+  res.send("Portfolio backend up and running!");
+})
 app.use("/", router);
 app.listen(PORT, (conn) => console.log(`Server Running on ${PORT}`));
 console.log(process.env.EMAIL_USER);
