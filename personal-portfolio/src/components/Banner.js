@@ -28,8 +28,8 @@ export const Banner = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
     let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
+      ? fullText.substring(0, text.length - 2)
+      : fullText.substring(0, text.length + 2);
 
     setText(updatedText);
 
@@ -72,16 +72,17 @@ export const Banner = () => {
                     second is make a difference where I can along the way.
                     Growth is important to me and I know that if I continue to
                     practice daily, I will continue growing my skills. So that
-                    is exactly what I do! Please Check out my projects and{" "}
-                    <a href="https://github.com/bfrisbyh92">Github.</a>
+                    is exactly what I do! Please check out my projects and{" "}
+                    <a href="https://github.com/bfrisbyh92">Github profile.</a>
                     <a
                       href="https://github.com/bfrisbyh92/2022portfolio/blob/afc6ef2c5812dfa9c8279e5b42454c84f7c86551/personal-portfolio/src/assets/img/BHF%20Resume.docx"
                       download="Brendan Frisby Resume"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
-                        class="btn btn-success btn-lg btn-block"
+                        className="btn btn-success btn-lg btn-block"
                       >
                         Download Resume
                       </button>
