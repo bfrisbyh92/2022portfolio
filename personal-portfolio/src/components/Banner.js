@@ -82,7 +82,7 @@ export const Banner = () => {
                     >
                       <button
                         type="button"
-                        class="btn btn-success btn-lg btn-block"
+                        className="btn btn-success btn-lg btn-block"
                       >
                         Download Resume
                       </button>

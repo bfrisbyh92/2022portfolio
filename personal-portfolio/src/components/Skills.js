@@ -46,8 +46,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                I am constantly building and learning more. Here is a list of //
-                some of the technologies I'm familiar with.
+                I am constantly building and learning more. I've listed below some of the technologies I'm most familiar with.
               </p>
               <Carousel
                 responsive={responsive}

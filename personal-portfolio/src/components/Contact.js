@@ -37,7 +37,7 @@ export const Contact = () => {
     let result = await response.json();
     setFormDetails(formInitialDetails);
     if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
+      setStatus({ succes: true, message: 'Message sent successfully!'});
     } else {
       setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
     }
@@ -50,7 +50,7 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                <img alt="image" className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
               }
             </TrackVisibility>
           </Col>
