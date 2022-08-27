@@ -11,7 +11,7 @@ export const MailchimpForm = () => {
         render={({ subscribe, status, message }) => (
           <Newsletter
             status={status}
-            message={message}
+            message="Thank you for subscribing!"
             onValidated={(formData) => subscribe(formData)}
           />
         )}

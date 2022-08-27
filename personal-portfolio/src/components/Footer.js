@@ -19,12 +19,11 @@ export const Footer = () => {
                 alt="profile"
                 className="profilePicture2"
               ></img>
-            </a>
+             </a>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-
-            {/* Linkedin Below */}
+              {/* Linkedin Below */}
               <a
                 href="https://www.linkedin.com/in/brendan-frisby/"
                 rel="noreferrer"

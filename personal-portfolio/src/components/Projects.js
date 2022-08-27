@@ -90,7 +90,7 @@ export const Projects = () => {
                     create. I try to make each project a bit more complex and
                     push myself every build.
                   </p>
-                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                  <Tab.Container id="projects-tabs" defaultActiveKey="all">
                     <Nav
                       variant="pills"
                       className="nav-pills mb-5 justify-content-center align-items-center"
