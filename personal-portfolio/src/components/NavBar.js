@@ -38,7 +38,7 @@ export const NavBar = () => {
             <img
               src={profilePicture}
               alt="profile"
-              className="profilePicture"
+              className="profilePicture2"
             ></img>
           </a>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
