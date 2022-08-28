@@ -108,7 +108,7 @@ nav.navbar.scrolled {
 .profilePicture {
   height: 17vh;
   width: 17vw;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 8px solid #c2c2da;
 }
 .profilePicture2 {

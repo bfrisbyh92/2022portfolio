@@ -72,7 +72,9 @@ export const Banner = () => {
                     second is make a difference where I can along the way.
                     Growth is important to me and I know that if I continue to
                     practice daily, I will continue growing my skills. So that
-                    is exactly what I do! Please check out my projects and{" "}
+                    is exactly what I do! Please check out my
+                    <a href="https://brendanhayesfrisby.netlify.app/#projects">{" "}projects{" "}</a>
+                     and{" "}
                     <a href="https://github.com/bfrisbyh92">Github profile.</a>
                     <a
                       href="https://github.com/bfrisbyh92/2022portfolio/blob/afc6ef2c5812dfa9c8279e5b42454c84f7c86551/personal-portfolio/src/assets/img/BHF%20Resume.docx"

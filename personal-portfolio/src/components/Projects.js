@@ -4,6 +4,7 @@ import kryptlow from "../assets/img/kryptlow.png";
 import coinhub from "../assets/img/coinhub.png";
 import goodtimes from "../assets/img/goodtimes.png";
 import oldPortfolio from "../assets/img/oldPortfolio.png";
+import newPortfolio from "../assets/img/newPortfolio.png";
 import p2 from "../assets/img/p2.png";
 import uber from "../assets/img/uber.png";
 import signal from "../assets/img/signal.png";
@@ -68,6 +69,12 @@ export const Projects = () => {
       description:
         "I am very split between portfolios right now. My old one was amazing and Sanity.io made updates very easy!",
       imgUrl: oldPortfolio,
+      tags: ["react", "web", "all"],
+    },
+    {
+      title: "New Portfolio",
+      description: "This same portfolio your viewing now. Credit to the author in readme. My own edits of the code available in my repository.",
+      imgUrl: newPortfolio,
       tags: ["react", "web", "all"],
     },
   ];
@@ -243,6 +250,33 @@ export const Projects = () => {
                             </div>
                           </Col>
 
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://brendanhayesfrisby.netlify.app"
+                              target="_blank"
+                            >
+                              This portfolios link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/2022portfolio"
+                              target="_blank"
+                            >
+                              This portfolios code
+                            </a>
+                            <div className="proj-imgbx">
+                              <img alt="projectImg" src={newPortfolio} />
+                              <div className="proj-txtx">
+                                <h4>{projects[7].title}</h4>
+                                <span>{projects[7].description}</span>
+                              </div>
+                            </div>
+                          </Col>
+
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="web">
@@ -388,6 +422,33 @@ export const Projects = () => {
                               <div className="proj-txtx">
                                 <h4>{projects[5].title}</h4>
                                 <span>{projects[5].description}</span>
+                              </div>
+                            </div>
+                          </Col>
+
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://brendanhayesfrisby.netlify.app"
+                              target="_blank"
+                            >
+                              This portfolios link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/2022portfolio"
+                              target="_blank"
+                            >
+                              This portfolios code
+                            </a>
+                            <div className="proj-imgbx">
+                              <img alt="projectImg" src={newPortfolio} />
+                              <div className="proj-txtx">
+                                <h4>{projects[7].title}</h4>
+                                <span>{projects[7].description}</span>
                               </div>
                             </div>
                           </Col>
@@ -647,6 +708,33 @@ export const Projects = () => {
                               <div className="proj-txtx">
                                 <h4>{projects[1].title}</h4>
                                 <span>{projects[1].description}</span>
+                              </div>
+                            </div>
+                          </Col>
+
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://brendanhayesfrisby.netlify.app"
+                              target="_blank"
+                            >
+                              This portfolios link
+                            </a>
+                            <br></br>
+                            <a
+                              align="center"
+                              rel="noreferrer"
+                              href="https://github.com/bfrisbyh92/2022portfolio"
+                              target="_blank"
+                            >
+                              This portfolios code
+                            </a>
+                            <div className="proj-imgbx">
+                              <img alt="projectImg" src={newPortfolio} />
+                              <div className="proj-txtx">
+                                <h4>{projects[7].title}</h4>
+                                <span>{projects[7].description}</span>
                               </div>
                             </div>
                           </Col>
