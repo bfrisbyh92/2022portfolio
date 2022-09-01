@@ -136,6 +136,9 @@ span.navbar-text {
   display: flex;
   align-items: center;
 }
+.linkText {
+  color: whitesmoke;
+}
 .social-icon {
   display: inline-block;
   margin-left: 14px;
@@ -421,7 +424,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0C0C0C -5.91%, #4834D4 111.58%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -453,7 +456,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0C0C0C -5.91%, #4834D4 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -500,7 +503,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0C0C0C -5.91%, #4834D4 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -604,9 +607,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
+
 .new-email-bx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0C0C0C -5.91%, #4834D4 111.58%);
   border-radius: 20px;
   position: absolute;
   z-index: -1;
@@ -635,7 +639,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #0C0C0C -5.91%, #4834D4 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
