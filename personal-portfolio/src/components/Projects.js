@@ -73,7 +73,8 @@ export const Projects = () => {
     },
     {
       title: "New Portfolio",
-      description: "This same portfolio your viewing now. Credit to the author in readme. My own edits of the code available in my repository.",
+      description:
+        "This same portfolio your viewing now. Credit to the author in readme. My own edits of the code available in my repository.",
       imgUrl: newPortfolio,
       tags: ["react", "web", "all"],
     },
@@ -129,25 +130,31 @@ export const Projects = () => {
                           })}
                           React */}
 
-                           {/* // Goodtimes */}
+                          {/* // Goodtimes */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://goodtimes7.netlify.app"
-                              target="_blank"
-                            >
-                              GoodTimes Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://goodtimes7.netlify.app"
+                                target="_blank"
+                              >
+                                GoodTimes Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/GoodTimes"
-                              target="_blank"
-                            >
-                              GoodTimes Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/GoodTimes"
+                                target="_blank"
+                              >
+                                GoodTimes Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[4].imgUrl} />
                               <div className="proj-txtx">
@@ -159,23 +166,29 @@ export const Projects = () => {
 
                           {/* // Coinhub */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://coinhub7.netlify.app"
-                              target="_blank"
-                            >
-                              Coinhub Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://coinhub7.netlify.app"
+                                target="_blank"
+                              >
+                                Coinhub Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/crypto-prices"
-                              target="_blank"
-                            >
-                              Coinhub Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/crypto-prices"
+                                target="_blank"
+                              >
+                                Coinhub Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[3].imgUrl} />
                               <div className="proj-txtx">
@@ -187,23 +200,29 @@ export const Projects = () => {
 
                           {/* // Kryptlow */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://kryptlow.netlify.app/"
-                              target="_blank"
-                            >
-                              Kryptlow Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://kryptlow.netlify.app/"
+                                target="_blank"
+                              >
+                                Kryptlow Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/Kryptlow"
-                              target="_blank"
-                            >
-                              Kryptlow Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/Kryptlow"
+                                target="_blank"
+                              >
+                                Kryptlow Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[0].imgUrl} />
                               <div className="proj-txtx">
@@ -215,32 +234,41 @@ export const Projects = () => {
 
                           {/* // Old Portfolio */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                           <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://brendanfrisby.netlify.app/"
-                              target="_blank"
-                            >
-                              Old Portfolio Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://brendanfrisby.netlify.app/"
+                                target="_blank"
+                              >
+                                Old Portfolio Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/frontend_portfolio"
-                              target="_blank"
-                            >
-                              Old Portfolio Client Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/frontend_portfolio"
+                                target="_blank"
+                              >
+                                Old Portfolio Client Code
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/backend_portfolio"
-                              target="_blank"
-                            >
-                              Old Portfolio Backend Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/backend_portfolio"
+                                target="_blank"
+                              >
+                                Old Portfolio Backend Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[6].imgUrl} />
                               <div className="proj-txtx">
@@ -251,23 +279,29 @@ export const Projects = () => {
                           </Col>
 
                           <Col size={12} sm={6} md={4} lg={3}>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://brendanhayesfrisby.netlify.app"
-                              target="_blank"
-                            >
-                              This portfolios link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://brendanhayesfrisby.netlify.app"
+                                target="_blank"
+                              >
+                                This portfolios link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/2022portfolio"
-                              target="_blank"
-                            >
-                              This portfolios code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/2022portfolio"
+                                target="_blank"
+                              >
+                                This portfolios code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={newPortfolio} />
                               <div className="proj-txtx">
@@ -276,30 +310,35 @@ export const Projects = () => {
                               </div>
                             </div>
                           </Col>
-
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="web">
                         <Row>
-  {/* // Goodtimes */}
+                          {/* // Goodtimes */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://goodtimes7.netlify.app"
-                              target="_blank"
-                            >
-                              GoodTimes Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://goodtimes7.netlify.app"
+                                target="_blank"
+                              >
+                                GoodTimes Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/GoodTimes"
-                              target="_blank"
-                            >
-                              GoodTimes Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/GoodTimes"
+                                target="_blank"
+                              >
+                                GoodTimes Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[4].imgUrl} />
                               <div className="proj-txtx">
@@ -311,23 +350,29 @@ export const Projects = () => {
 
                           {/* // Coinhub */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://coinhub7.netlify.app"
-                              target="_blank"
-                            >
-                              Coinhub Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://coinhub7.netlify.app"
+                                target="_blank"
+                              >
+                                Coinhub Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/crypto-prices"
-                              target="_blank"
-                            >
-                              Coinhub Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/crypto-prices"
+                                target="_blank"
+                              >
+                                Coinhub Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[3].imgUrl} />
                               <div className="proj-txtx">
@@ -339,23 +384,29 @@ export const Projects = () => {
 
                           {/* // Kryptlow */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://kryptlow.netlify.app/"
-                              target="_blank"
-                            >
-                              Kryptlow Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://kryptlow.netlify.app/"
+                                target="_blank"
+                              >
+                                Kryptlow Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/Kryptlow"
-                              target="_blank"
-                            >
-                              Kryptlow Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/Kryptlow"
+                                target="_blank"
+                              >
+                                Kryptlow Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[0].imgUrl} />
                               <div className="proj-txtx">
@@ -367,32 +418,41 @@ export const Projects = () => {
 
                           {/* // Old Portfolio */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                           <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://brendanfrisby.netlify.app/"
-                              target="_blank"
-                            >
-                              Old Portfolio Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://brendanfrisby.netlify.app/"
+                                target="_blank"
+                              >
+                                Old Portfolio Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/frontend_portfolio"
-                              target="_blank"
-                            >
-                              Old Portfolio Client Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/frontend_portfolio"
+                                target="_blank"
+                              >
+                                Old Portfolio Client Code
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/backend_portfolio"
-                              target="_blank"
-                            >
-                              Old Portfolio Backend Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/backend_portfolio"
+                                target="_blank"
+                              >
+                                Old Portfolio Backend Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[6].imgUrl} />
                               <div className="proj-txtx">
@@ -402,16 +462,19 @@ export const Projects = () => {
                             </div>
                           </Col>
 
-                         {/* // Project 2 Blog */}
+                          {/* // Project 2 Blog */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/project-2"
-                              target="_blank"
-                            >
-                              Project #2 Code - no longer hosted
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/project-2"
+                                target="_blank"
+                              >
+                                Project #2 Code - no longer hosted
+                              </a>
+                            </Button>
                             <br></br>
                             <div className="proj-imgbx">
                               <img
@@ -427,23 +490,29 @@ export const Projects = () => {
                           </Col>
 
                           <Col size={12} sm={6} md={4} lg={3}>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://brendanhayesfrisby.netlify.app"
-                              target="_blank"
-                            >
-                              This portfolios link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://brendanhayesfrisby.netlify.app"
+                                target="_blank"
+                              >
+                                This portfolios link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/2022portfolio"
-                              target="_blank"
-                            >
-                              This portfolios code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/2022portfolio"
+                                target="_blank"
+                              >
+                                This portfolios code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={newPortfolio} />
                               <div className="proj-txtx">
@@ -452,32 +521,37 @@ export const Projects = () => {
                               </div>
                             </div>
                           </Col>
-
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="mobile">
                         <Row>
-                                                   {/* // Uber Clone */}
+                          {/* // Uber Clone */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://expo.dev/@bfrisbyh92/uber-clone"
-                              target="_blank"
-                            >
-                              Uber Clone Link(expo)
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://expo.dev/@bfrisbyh92/uber-clone"
+                                target="_blank"
+                              >
+                                Uber Clone Link(expo)
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/uber-clone"
-                              target="_blank"
-                            >
-                              Uber Clone Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/uber-clone"
+                                target="_blank"
+                              >
+                                Uber Clone Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
-                              <img alt="projectImg" src={projects[3].imgUrl} />
+                              <img alt="projectImg" src={uber} />
                               <div className="proj-txtx">
                                 <h4>{projects[3].title}</h4>
                                 <span>{projects[3].description}</span>
@@ -487,32 +561,41 @@ export const Projects = () => {
 
                           {/* // Signal Clone */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://signal3-45484.web.app/"
-                              target="_blank"
-                            >
-                              "Signal" Clone Web Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://signal3-45484.web.app/"
+                                target="_blank"
+                              >
+                                "Signal" Clone Web Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://signal3-45484.web.app/"
-                              target="_blank"
-                            >
-                              Signal Clone Mobile Link(expo)
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://signal3-45484.web.app/"
+                                target="_blank"
+                              >
+                                Signal Clone Mobile Link(expo)
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/signal-clone"
-                              target="_blank"
-                            >
-                              Signal Clone Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/signal-clone"
+                                target="_blank"
+                              >
+                                Signal Clone Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[1].imgUrl} />
                               <div className="proj-txtx">
@@ -521,30 +604,35 @@ export const Projects = () => {
                               </div>
                             </div>
                           </Col>
-                          
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="all">
                         <Row>
                           {/* // Goodtimes */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://goodtimes7.netlify.app"
-                              target="_blank"
-                            >
-                              GoodTimes Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://goodtimes7.netlify.app"
+                                target="_blank"
+                              >
+                                GoodTimes Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/GoodTimes"
-                              target="_blank"
-                            >
-                              GoodTimes Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/GoodTimes"
+                                target="_blank"
+                              >
+                                GoodTimes Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[4].imgUrl} />
                               <div className="proj-txtx">
@@ -556,23 +644,29 @@ export const Projects = () => {
 
                           {/* // Coinhub */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://coinhub7.netlify.app"
-                              target="_blank"
-                            >
-                              Coinhub Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://coinhub7.netlify.app"
+                                target="_blank"
+                              >
+                                Coinhub Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/crypto-prices"
-                              target="_blank"
-                            >
-                              Coinhub Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/crypto-prices"
+                                target="_blank"
+                              >
+                                Coinhub Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[3].imgUrl} />
                               <div className="proj-txtx">
@@ -584,23 +678,29 @@ export const Projects = () => {
 
                           {/* // Kryptlow */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://kryptlow.netlify.app/"
-                              target="_blank"
-                            >
-                              Kryptlow Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://kryptlow.netlify.app/"
+                                target="_blank"
+                              >
+                                Kryptlow Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/Kryptlow"
-                              target="_blank"
-                            >
-                              Kryptlow Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/Kryptlow"
+                                target="_blank"
+                              >
+                                Kryptlow Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[0].imgUrl} />
                               <div className="proj-txtx">
@@ -612,32 +712,41 @@ export const Projects = () => {
 
                           {/* // Old Portfolio */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                           <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://brendanfrisby.netlify.app/"
-                              target="_blank"
-                            >
-                              Old Portfolio Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://brendanfrisby.netlify.app/"
+                                target="_blank"
+                              >
+                                Old Portfolio Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/frontend_portfolio"
-                              target="_blank"
-                            >
-                              Old Portfolio Client Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/frontend_portfolio"
+                                target="_blank"
+                              >
+                                Old Portfolio Client Code
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/backend_portfolio"
-                              target="_blank"
-                            >
-                              Old Portfolio Backend Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/backend_portfolio"
+                                target="_blank"
+                              >
+                                Old Portfolio Backend Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[6].imgUrl} />
                               <div className="proj-txtx">
@@ -649,25 +758,31 @@ export const Projects = () => {
 
                           {/* // Uber Clone */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://expo.dev/@bfrisbyh92/uber-clone"
-                              target="_blank"
-                            >
-                              Uber Clone Link(expo)
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://expo.dev/@bfrisbyh92/uber-clone"
+                                target="_blank"
+                              >
+                                Uber Clone Link(expo)
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/uber-clone"
-                              target="_blank"
-                            >
-                              Uber Clone Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/uber-clone"
+                                target="_blank"
+                              >
+                                Uber Clone Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
-                              <img alt="projectImg" src={projects[3].imgUrl} />
+                              <img alt="projectImg" src={uber} />
                               <div className="proj-txtx">
                                 <h4>{projects[3].title}</h4>
                                 <span>{projects[3].description}</span>
@@ -677,32 +792,41 @@ export const Projects = () => {
 
                           {/* // Signal Clone */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://signal3-45484.web.app/"
-                              target="_blank"
-                            >
-                              "Signal" Clone Web Link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://signal3-45484.web.app/"
+                                target="_blank"
+                              >
+                                "Signal" Clone Web Link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://signal3-45484.web.app/"
-                              target="_blank"
-                            >
-                              Signal Clone Mobile Link(expo)
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://signal3-45484.web.app/"
+                                target="_blank"
+                              >
+                                Signal Clone Mobile Link(expo)
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/signal-clone"
-                              target="_blank"
-                            >
-                              Signal Clone Code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/signal-clone"
+                                target="_blank"
+                              >
+                                Signal Clone Code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={projects[1].imgUrl} />
                               <div className="proj-txtx">
@@ -713,23 +837,29 @@ export const Projects = () => {
                           </Col>
 
                           <Col size={12} sm={6} md={4} lg={3}>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://brendanhayesfrisby.netlify.app"
-                              target="_blank"
-                            >
-                              This portfolios link
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://brendanhayesfrisby.netlify.app"
+                                target="_blank"
+                              >
+                                This portfolios link
+                              </a>
+                            </Button>
                             <br></br>
-                            <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/2022portfolio"
-                              target="_blank"
-                            >
-                              This portfolios code
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/2022portfolio"
+                                target="_blank"
+                              >
+                                This portfolios code
+                              </a>
+                            </Button>
                             <div className="proj-imgbx">
                               <img alt="projectImg" src={newPortfolio} />
                               <div className="proj-txtx">
@@ -741,14 +871,17 @@ export const Projects = () => {
 
                           {/* // Project 2 Blog */}
                           <Col size={12} sm={6} md={4} lg={3}>
-                          <a
-                              align="center"
-                              rel="noreferrer"
-                              href="https://github.com/bfrisbyh92/project-2"
-                              target="_blank"
-                            >
-                              Project #2 Code - no longer hosted
-                            </a>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/project-2"
+                                target="_blank"
+                              >
+                                Project #2 Code - no longer hosted
+                              </a>
+                            </Button>
                             <br></br>
                             <div className="proj-imgbx">
                               <img
