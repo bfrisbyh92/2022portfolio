@@ -68,16 +68,18 @@ export const Banner = () => {
 
                   <p>
                     I am a passionate Full-Stack Software Engineer. I have two
-                    objectives. Be the best software engineer I can be and the
-                    second is make a difference where I can along the way.
-                    Growth is important to me and I know that if I continue to
-                    practice daily, I will continue growing my skills. So that
-                    is exactly what I do! Please check out my
-                    <a href="https://brendanhayesfrisby.netlify.app/#projects">{" "}projects{" "}</a>
-                     and{" "}
-                    <a href="https://github.com/bfrisbyh92">Github profile.</a>
+                    objectives. The first is to be the best software engineer I
+                    can be. Second, make a difference anywhere I can along the
+                    way. I currently take on freelance work but am looking for
+                    full-time employment. Please check out my
+                    <a href="https://brendanhayesfrisby.netlify.app/#projects">
+                      {" "}
+                      projects{" "}
+                    </a>
+                    and{" "}
+                    <a href="https://github.com/bfrisbyh92">Github profile!</a>
                     <a
-                      href="https://github.com/bfrisbyh92/2022portfolio/blob/afc6ef2c5812dfa9c8279e5b42454c84f7c86551/personal-portfolio/src/assets/img/BHF%20Resume.docx"
+                      href="https://docs.google.com/document/d/1GP3ifM93gIRPxEIqFROXKhgVdN3__yMw/edit?usp=sharing&ouid=115091900421784435265&rtpof=true&sd=true"
                       download="Brendan Frisby Resume"
                       target="_blank"
                       rel="noreferrer"
