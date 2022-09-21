@@ -7,6 +7,7 @@ import oldPortfolio from "../assets/img/oldPortfolio.png";
 import newPortfolio from "../assets/img/newPortfolio.png";
 import p2 from "../assets/img/p2.png";
 import uber from "../assets/img/uber.png";
+import deliveroo from "../assets/img/deliveroo.jpg";
 import signal from "../assets/img/signal.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -78,6 +79,13 @@ export const Projects = () => {
       imgUrl: newPortfolio,
       tags: ["react", "web", "all"],
     },
+    {
+      title: "Deliveroo Clone",
+      description:
+        "A React-Native app made using Expo. Includes Redux, Sanity.io for a CMS, Tailwind.css, react-native-maps and more!",
+      imgUrl: deliveroo,
+      tags: ["react", "mobile", "all"],
+    },
   ];
 
   return (
@@ -129,6 +137,40 @@ export const Projects = () => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                           React */}
+
+                          {/* // Deliveroo */}
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://expo.dev/@bfrisbyh92/deliveroo_Clone?serviceType=classic&distribution=expo-go"
+                                target="_blank"
+                              >
+                                Deliveroo Link
+                              </a>
+                            </Button>
+                            <br></br>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/food-delivery-app"
+                                target="_blank"
+                              >
+                                Deliveroo Code
+                              </a>
+                            </Button>
+                            <div className="proj-imgbx">
+                              <img alt="projectImg" src={projects[8].imgUrl} />
+                              <div className="proj-txtx">
+                                <h4>{projects[8].title}</h4>
+                                <span>{projects[8].description}</span>
+                              </div>
+                            </div>
+                          </Col>
 
                           {/* // Goodtimes */}
                           <Col size={12} sm={6} md={4} lg={3}>
@@ -525,6 +567,40 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="mobile">
                         <Row>
+                          {/* // Deliveroo */}
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://expo.dev/@bfrisbyh92/deliveroo_Clone?serviceType=classic&distribution=expo-go"
+                                target="_blank"
+                              >
+                                Deliveroo Link
+                              </a>
+                            </Button>
+                            <br></br>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/food-delivery-app"
+                                target="_blank"
+                              >
+                                Deliveroo Code
+                              </a>
+                            </Button>
+                            <div className="proj-imgbx">
+                              <img alt="projectImg" src={projects[8].imgUrl} />
+                              <div className="proj-txtx">
+                                <h4>{projects[8].title}</h4>
+                                <span>{projects[8].description}</span>
+                              </div>
+                            </div>
+                          </Col>
+
                           {/* // Uber Clone */}
                           <Col size={12} sm={6} md={4} lg={3}>
                             <Button variant="primary" size="sm">
@@ -608,6 +684,40 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="all">
                         <Row>
+                          {/* // Deliveroo */}
+                          <Col size={12} sm={6} md={4} lg={3}>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://expo.dev/@bfrisbyh92/deliveroo_Clone?serviceType=classic&distribution=expo-go"
+                                target="_blank"
+                              >
+                                Deliveroo Link
+                              </a>
+                            </Button>
+                            <br></br>
+                            <Button variant="primary" size="sm">
+                              <a
+                                align="center"
+                                className="linkText"
+                                rel="noreferrer"
+                                href="https://github.com/bfrisbyh92/food-delivery-app"
+                                target="_blank"
+                              >
+                                Deliveroo Code
+                              </a>
+                            </Button>
+                            <div className="proj-imgbx">
+                              <img alt="projectImg" src={projects[8].imgUrl} />
+                              <div className="proj-txtx">
+                                <h4>{projects[8].title}</h4>
+                                <span>{projects[8].description}</span>
+                              </div>
+                            </div>
+                          </Col>
+
                           {/* // Goodtimes */}
                           <Col size={12} sm={6} md={4} lg={3}>
                             <Button variant="primary" size="sm">

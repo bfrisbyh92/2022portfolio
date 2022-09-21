@@ -4,6 +4,7 @@ import rocketSVG from "../assets/img/rocketSVG.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import { HashLink } from "react-router-hash-link";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -11,8 +12,8 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Software Engineer", "Web Developer", "UI/UX Designer"];
-  const period = 2000;
+  const toRotate = ["Software Engineer", "Web Developer", "Freelancer"];
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -28,8 +29,8 @@ export const Banner = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
     let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 2)
-      : fullText.substring(0, text.length + 2);
+      ? fullText.substring(0, text.length - 3)
+      : fullText.substring(0, text.length + 3);
 
     setText(updatedText);
 
@@ -67,39 +68,59 @@ export const Banner = () => {
                   <h1>{`Hi! I'm Brendan`} </h1>
 
                   <p>
-                    I am a passionate Full-Stack Software Engineer. I have two
-                    objectives. Be the best software engineer I can be and the
-                    second is make a difference where I can along the way.
-                    Growth is important to me and I know that if I continue to
-                    practice daily, I will continue growing my skills. So that
-                    is exactly what I do! Please check out my
-                    <a href="https://brendanhayesfrisby.netlify.app/#projects">{" "}projects{" "}</a>
-                     and{" "}
-                    <a href="https://github.com/bfrisbyh92">Github profile.</a>
-                    <a
-                      href="https://github.com/bfrisbyh92/2022portfolio/blob/afc6ef2c5812dfa9c8279e5b42454c84f7c86551/personal-portfolio/src/assets/img/BHF%20Resume.docx"
-                      download="Brendan Frisby Resume"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button
-                        type="button"
-                        className="btn btn-success btn-lg btn-block"
+                    A <strong>passionate</strong> full-stack software engineer.
+                    I have two general objectives.
+                    <br></br>
+                    <br></br>
+                    <strong>The first</strong> is to be a great software
+                    engineer. That's a life-long commitment and takes up a huge
+                    amount of my time.
+                    <br></br>
+                    <br></br>
+                    <strong>The Second,</strong> make a difference anywhere I
+                    can along my journey. What that means to me is actively
+                    looking for opportunities to make a positive difference in
+                    the lives of those around me.
+                    <br></br>
+                    <br></br>
+                    I'm currently taking on freelance work from peers and
+                    various platforms like Fiverr, Upwork, Freelancer. I am
+                    looking for full-time employment in a challenging role that
+                    will allow me to continue growing as a software engineer.
+                    <br></br>
+                    <br></br>
+                    <strong>
+                      Please check out my
+                      <a href="https://brendanhayesfrisby.netlify.app/#projects">
+                        {" "}
+                        projects{" "}
+                      </a>
+                      and{" "}
+                      <a href="https://github.com/bfrisbyh92">
+                        Github profile!
+                      </a>
+                      <a
+                        href="https://docs.google.com/document/d/1XSTf5B-4-TQRUT5eb1Qu7QT-YMJyU4vYC7v3LIdZqtc/edit?usp=sharing"
+                        download="Brendan Frisby Resume"
+                        target="_blank"
+                        rel="noreferrer"
                       >
-                        Download Resume
-                      </button>
-                    </a>
+                        <button
+                          type="button"
+                          className="btn btn-success btn-lg btn-block"
+                        >
+                          Download Resume
+                        </button>
+                      </a>
+                    </strong>
                   </p>
                   <span
                     className="txt-rotate"
                     dataPeriod="1000"
-                    data-rotate='[ "Software Engineer" , "Web Developer", "UI/UX Designer" ]'
+                    data-rotate='[ "Software Engineer" , "Web Developer", "Freelancer" ]'
                   >
                     <span className="wrap">{text}</span>
                   </span>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>
